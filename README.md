@@ -4,7 +4,7 @@
 
 #### This is a proof of concept and could be improved on in a lot of ways.
 1. To run this code use 
-   `git clone https://github.com/`
+   `git clone https://github.com/hackone103/BruteForce`
 3. Create Virtual Environment in Windows. Using command 
    `python -m venv sshbruteforcer_env`
 4. Run command 
