@@ -2,11 +2,10 @@
 # Description: SSH & FTP brute-forcing tool written in python
 # -*- coding: UTF-8 -*-
 # ToolName   : BruteForce
-# Author     : hukumsingverma
+# Author     : HackExitx0x
 # Version    : 1.0
-# License    : MIT
 # Copyright  : HackExitx0x (2023)
-# Github     : https://github.com/hackone103
+# Github     : https://github.com/hackone103/BruteForce/
 
 # Contact    : 
 # Description: BruteForce is a ssh & ftp Password BruteForce  tool in python
@@ -91,7 +90,7 @@ argparse._optionals.title ="Basic Help Menu"
 argparse.add_argument('-i', '--ip', action="store", dest='hostname',  help='Target IP Address', required=True)
 argparse.add_argument('-p', '--port', action="store" , default=22, type=int, dest='port', help='Target Port Number (Default 22)')
 argparse.add_argument('-u', '--username', action="store", dest='username', help='SSH & FTP User name (Default root)', required=True)
-argparse.add_argument('-w', '--worlist', action="store", default="wordlist/wordlist.txt", dest='wordlist', help='Wordlist File Path')
+argparse.add_argument('-w', '--worlist', action="store", default="wordlist/ssh20Password.txt", dest='wordlist', help='Wordlist File Path')
 argparse.add_argument('-o', '--option', action="store", dest='options', type=str, help='Enter Options for SSH & FTP (Default ssh)', required=True)
 argparse.add_argument('-v', '--verbose', action="store_true", help='Enable verbose mode')
 argparse.add_argument('-t', '--threads', action="store", type=int, default=9,dest='threads', help='No of threads (Default 9 Exaption ssh maxumum 9 thrades and increas outpu error)')
@@ -114,7 +113,7 @@ timeout = InputArguments.timeout
 
 # Nofifications
 BannerFist ="BruteForce v1.0 (c)2023 by van HackExitx0x - for legal purposes only"
-BannerSecund ="BruteForce {} (http://www.docxinfo.com/BruteForce) {} starting at {} {} {}\n".format(green,RESET,green,formatted_datetime,RESET)
+BannerSecund ="BruteForce {} (https://github.com/hackone103/BruteForce/) {} starting at {} {} {}\n".format(green,RESET,green,formatted_datetime,RESET)
 
 # Banner Print
 print(BannerFist)
@@ -237,7 +236,7 @@ q = queue.Queue()
 
 if options == 'ssh':
 
-    with open('wordlist/wordlist.txt','r') as file:
+    with open(wordlist,'r') as file:
         for password in file.read().splitlines():
             q.put(password)
 
@@ -249,7 +248,7 @@ if options == 'ssh':
 
 if options == 'ftp':
 
-    with open('wordlist/wordlist.txt', 'r') as file:
+    with open(wordlist, 'r') as file:
         for password in file.read().splitlines():
             q.put(password)
 
@@ -286,7 +285,7 @@ while True:
        # {green}[{port}] [FTP] {green} Hostname : [{hostname}] {byellow} Username : {bgreen}{username}{byellow} Password : {bgreen}{password}{RESET}")
 
        
-       BannerSecundd ="{} BruteForce {} (http://www.docxinfo.com/BruteForce) {} Time Count at {} {} {}".format(ask1,green,RESET,green,fformatted_datetime,RESET)
+       BannerSecundd ="{} BruteForce {} (https://github.com/hackone103/BruteForce/) {} Time Count at {} {} {}".format(ask1,green,RESET,green,fformatted_datetime,RESET)
 
 
        Outs = "{} Exiting....".format(ask1,RESET)
