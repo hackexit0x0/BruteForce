@@ -22,10 +22,9 @@ SSH & FTP brute-forcing tool written in python
 `pip install -r requirements.txt`\
 `python BruteForce.py -h`
 
-```
 ### Usage : 
 ```
-show this help message and exit
+Show this help message and exit
 Usage: python3 BruteForce.py -i [IP] -p [Port] -u [USERNAME] -w [WORDLIST FILE] 
                             -t [THREAD] -T [TIMEOUT] -o [OPTIONS] -oN [OUTPUT]
 Basic Help Menu:
