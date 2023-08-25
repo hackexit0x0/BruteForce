@@ -42,13 +42,13 @@ Basic Help Menu:
 ```
 
 ### Tested on ✅
-`Kali Linux`
-`Ubuntu`
-`Termux(Android)`
-`Windows`
+`Kali Linux`\
+`Ubuntu`\
+`Termux(Android)`\
+`Windows`\
  
 ### Not Tested on ❌
-`Mac OS`
+`Mac OS`\
 
 ### Requirements Python Module
 
