@@ -45,10 +45,10 @@ Basic Help Menu:
 `Kali Linux`\
 `Ubuntu`\
 `Termux(Android)`\
-`Windows`\
+`Windows`
  
 ### Not Tested on ❌
-`Mac OS`\
+`Mac OS`
 
 ### Requirements Python
 
@@ -59,6 +59,6 @@ Basic Help Menu:
 `sys`\
 `socket`\
 `time`\
-`argparse`\
+`argparse`
 
 
