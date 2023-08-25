@@ -299,6 +299,7 @@ while True:
 
        print(BannerSecundd)
        print(Outs+"\n\n")
+       print(Outs+"\n\n")
        #print(Outs2)
        
 
