@@ -50,15 +50,15 @@ Basic Help Menu:
 ### Not Tested on ❌
 `Mac OS`\
 
-### Requirements Python Module
+### Requirements Python
 
-ftplib`
-paramiko`
-threading`
-queue`
-sys`
-socket`
-time`
-argparse`
+`ftplib`\
+`paramiko`\
+`threading`\
+`queue`\
+`sys`\
+`socket`\
+`time`\
+`argparse`\
 
 
