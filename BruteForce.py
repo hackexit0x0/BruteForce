@@ -93,7 +93,7 @@ argparse.add_argument('-u', '--username', action="store", dest='username', help=
 argparse.add_argument('-w', '--worlist', action="store", default="wordlist/ssh20Password.txt", dest='wordlist', help='Wordlist File Path')
 argparse.add_argument('-o', '--option', action="store", dest='options', type=str, help='Enter Options for SSH & FTP (Default ssh)', required=True)
 argparse.add_argument('-v', '--verbose', action="store_true", help='Enable verbose mode')
-argparse.add_argument('-t', '--threads', action="store", type=int, default=9,dest='threads', help='No of threads (Default 9 Exaption ssh maxumum 9 thrades and increas outpu error)')
+argparse.add_argument('-t', '--threads', action="store", type=int, default=9,dest='threads', help='No of threads (Default 9 Exaption ssh maximum 9 thrades and increas outpu error)')
 argparse.add_argument('-T', '--timeout', action="store", default=5 , type=int, dest='timeout', help='Request timeout (Default 5)')
 argparse.add_argument('-oN', '--output', action="store" , dest='output', help='Output file name')
 
