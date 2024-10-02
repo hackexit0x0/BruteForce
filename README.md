@@ -8,7 +8,7 @@ https://github.com/hackone103/BruteForce/assets/99713919/5d5054a4-903a-4417-8c1d
 
 #### This is a proof of concept and could be improved on in a lot of ways.
 1. To run this code use 
-   `git clone https://github.com/hackone103/BruteForce`
+   `git clone https://github.com/hackexit0x0/BruteForce`
 3. Create Virtual Environment in Windows. Using command 
    `python -m venv sshbruteforcer_env`
 4. Run command 
@@ -24,7 +24,7 @@ SSH & FTP brute-forcing tool written in python
 
 #### Install
 ```
-▶ git clone https://github.com/hackone103/BruteForce
+▶ git clone https://github.com/hackexit0x0/BruteForce
 ```
 
 `cd Bruteforce`\

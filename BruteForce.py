@@ -2,10 +2,10 @@
 # Description: SSH & FTP brute-forcing tool written in python
 # -*- coding: UTF-8 -*-
 # ToolName   : BruteForce
-# Author     : HackExitx0x
+# Author     : HackExit0x0
 # Version    : 1.0
-# Copyright  : HackExitx0x (2023)
-# Github     : https://github.com/hackone103/BruteForce/
+# Copyright  : HackExit0x0 (2023)
+# Github     : https://github.com/hackexit0x0/BruteForce
 
 # Contact    : 
 # Description: BruteForce is a ssh & ftp Password BruteForce  tool in python
@@ -13,7 +13,7 @@
 # Language   : Python
 # Portable file/script
 # If you copy open source code, consider giving credit
-# Credits    : HackExitx0x, Docxinfo.com
+# Credits    : HackExit0x0, Docxinfo.site
 # Env        : #!/usr/bin/env python
 
 # import Python Modules.
@@ -112,8 +112,8 @@ output = InputArguments.output
 timeout = InputArguments.timeout
 
 # Nofifications
-BannerFist ="BruteForce v1.0 (c)2023 by van HackExitx0x - for legal purposes only"
-BannerSecund ="BruteForce {} (https://github.com/hackone103/BruteForce/) {} starting at {} {} {}\n".format(green,RESET,green,formatted_datetime,RESET)
+BannerFist ="BruteForce v1.0 (c)2023 by van HackExit0x0 - for legal purposes only"
+BannerSecund ="BruteForce {} (https://github.com/hackexit0x0/BruteForce) {} starting at {} {} {}\n".format(green,RESET,green,formatted_datetime,RESET)
 
 # Banner Print
 print(BannerFist)
